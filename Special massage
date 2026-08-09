@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Special Message ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .box {
+      background: white;
+      padding: 35px 25px;
+      border-radius: 25px;
+      width: 80%;
+      max-width: 400px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      color: #ff3366;
+      font-size: 32px;
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    button {
+      background: #ff3366;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    #message {
+      display: none;
+      margin-top: 20px;
+      color: #ff3366;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Hey ❤️</h1>
+
+    <p>
+      Tum mere liye bahut special ho... 💕<br>
+      Isliye aaj dil ki ek baat kehni hai.
+    </p>
+
+    <h2>Will You Be Mine? 💖</h2>
+
+    <button onclick="showLove()">Click Here ❤️</button>
+
+    <div id="message">
+      I Love You ❤️🥰<br>
+      You are very special to me! 💕
+    </div>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
