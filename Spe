@@ -1,0 +1,7 @@
+echo "# file-storage-emulated-0-Android-data-com.teejay.trebedit-files-TrebEdit-20user-20files-index.html" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/imshri678/file-storage-emulated-0-Android-data-com.teejay.trebedit-files-TrebEdit-20user-20files-index.html.git
+git push -u origin main
